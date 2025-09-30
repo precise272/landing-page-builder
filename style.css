@@ -78,3 +78,53 @@ form input {
   background: #2196f3;
   color: white;
 }
+
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.feature-item, .testimonial-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.feature-item input, .testimonial-item input {
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.feature-item button, .testimonial-item button {
+  background: #e53935;
+  margin-top: 0.25rem;
+}
+
+.testimonials blockquote {
+  border-left: 4px solid #2196f3;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+form#contactForm {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+form#contactForm input {
+  flex: 1;
+  padding: 0.5rem;
+}

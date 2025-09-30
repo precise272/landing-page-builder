@@ -16,6 +16,8 @@
         <button id="loadProject">Load Saved</button>
         <button id="saveProject" disabled>Save</button>
       </div>
+
+      <!-- Hero Editor -->
       <form id="editorForm" class="hidden">
         <h3>Hero Section</h3>
         <label>
@@ -32,6 +34,38 @@
         </label>
         <button type="submit">Update Preview</button>
       </form>
+
+      <!-- Features Editor -->
+      <div id="featuresEditor" class="hidden">
+        <h3>Features</h3>
+        <div id="featuresList"></div>
+        <button id="addFeature">+ Add Feature</button>
+      </div>
+
+      <!-- Testimonials Editor -->
+      <div id="testimonialsEditor" class="hidden">
+        <h3>Testimonials</h3>
+        <div id="testimonialsList"></div>
+        <button id="addTestimonial">+ Add Testimonial</button>
+      </div>
+
+      <!-- Contact Editor -->
+      <div id="contactEditor" class="hidden">
+        <h3>Contact Section</h3>
+        <label>
+          Headline
+          <input type="text" id="contactHeadline" />
+        </label>
+        <label>
+          Email Placeholder
+          <input type="text" id="contactPlaceholder" />
+        </label>
+        <label>
+          Button Text
+          <input type="text" id="contactButton" />
+        </label>
+        <button id="updateContact">Update Contact</button>
+      </div>
     </aside>
 
     <!-- Preview Area -->
