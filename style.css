@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.hero {
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+input, button {
+  padding: 0.75rem;
+  font-size: 1rem;
+}

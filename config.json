@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "name": "Acme Startup",
+    "primaryColor": "#2196f3",
+    "accentColor": "#ffca28"
+  },
+  "hero": {
+    "headline": "Grow Your Business with Acme",
+    "subheadline": "A modern solution for modern teams.",
+    "ctaText": "Get Started"
+  },
+  "features": [
+    { "title": "Fast Setup", "desc": "Launch in minutes with no hassle." },
+    { "title": "Scalable", "desc": "Grows with your business needs." },
+    { "title": "Secure", "desc": "Enterprise-grade security built in." }
+  ],
+  "testimonials": [
+    { "quote": "Acme transformed our workflow!", "author": "Jane Doe, CEO" },
+    { "quote": "The best investment we made this year.", "author": "John Smith, Founder" }
+  ],
+  "contact": {
+    "headline": "Get in Touch",
+    "emailPlaceholder": "Enter your email",
+    "buttonText": "Contact Us"
+  }
+}
