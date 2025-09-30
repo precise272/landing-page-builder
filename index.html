@@ -2,18 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Landing Page Builder</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header id="hero"></header>
-  <main>
-    <section id="features"></section>
-    <section id="testimonials"></section>
-    <section id="contact"></section>
-  </main>
-  <footer id="footer"></footer>
+  <div class="app">
+    <!-- Sidebar Dashboard -->
+    <aside class="dashboard">
+      <h2>Landing Page Builder</h2>
+      <div class="actions">
+        <button id="newProject">New Project</button>
+        <button id="loadProject">Load Saved</button>
+        <button id="saveProject" disabled>Save</button>
+      </div>
+      <form id="editorForm" class="hidden">
+        <h3>Hero Section</h3>
+        <label>
+          Headline
+          <input type="text" id="heroHeadline" />
+        </label>
+        <label>
+          Subheadline
+          <input type="text" id="heroSubheadline" />
+        </label>
+        <label>
+          CTA Text
+          <input type="text" id="heroCTA" />
+        </label>
+        <button type="submit">Update Preview</button>
+      </form>
+    </aside>
+
+    <!-- Preview Area -->
+    <main class="preview">
+      <div id="previewMessage" class="placeholder">
+        <p>No project loaded. Create a new one or load saved work.</p>
+      </div>
+      <div id="pagePreview" class="hidden">
+        <header id="hero"></header>
+        <section id="features"></section>
+        <section id="testimonials"></section>
+        <section id="contact"></section>
+      </div>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
